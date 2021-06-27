@@ -1,2 +1,8 @@
 # Parallel_Programming
-MPI and OpenMP with C
+compile ->  mpicc file.c -o file.x
+
+run -> mpirun -oversubscribe -np 4 ./file.x 
+
+OR
+
+exec -> mpiexec -oversubscribe -np 4 ./file.x 
